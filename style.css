@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&@200&@500&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #202124;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.img-revista {
+    width: 500px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.texto-revista {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.capa-revista {
+    width: 85%;
+    border-radius: 5px;
+    transition: 1s;
+    box-shadow: 10px 16px 23px -6px rgba(255,255,255,0.15) ;
+
+}
+
+.capa-revista:hover {
+    width: 90%;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+p {
+    font-weight: 200;
+    margin-top: 200px;
+}
+
+strong {
+    text-decoration: underline;
+}
+
+footer {
+    height: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F5F2EB;
+    color: black;
+    text-align: center;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+
+/*#F5F2EB*/
