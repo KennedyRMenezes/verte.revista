@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&@200&@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+
+main{
+    width: 70%;
+    margin-left: 20%;
+}
+
+.sc-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo2.content{
+    width: 40px;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    margin-left: 0%;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.logo2.content:visited{
+    color: #000;
+}
+
+.hide {
+    opacity:0;
+    /* left:-100%; */
+}
+.show {
+    opacity:1;
+    /* left:0; */
+}
+
+
+.mg-1 {
+    /* background-color: cyan; */
+    width: 45%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.editorial{
+    margin-top: -1%;
+    width: 50%;
+    height: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.pessoas{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.escritores{
+    width: 100%;
+    margin-top: 25px;
+}
+
+.esc-nomes-2{
+    background-color: #000;
+    color: #f7f6f1;
+    padding: 3px 15px 3px 15px;
+    border: none;
+    margin: 0px 3px 0px 3px;
+    border-radius: 10px 0px 0px 0px;
+    font-weight: 700;
+}
+
+span{
+    font-weight: 600;
+}
+
+.main-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.area-texto{
+    width: 40%;
+}
+
+/* .cadernos{
+    margin: 0;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+    font-size: 15em;
+    letter-spacing: -23;
+    text-align: center;
+} */
+
+.esc-nomes{
+    background-color: #000;
+    color: #f7f6f1;
+    padding: 3px 15px 3px 15px;
+    border: none;
+    margin: 0px 3px 0px 3px;
+    border-radius: 10px 0px 0px 0px;
+}
+
+.cadernos{
+    position: sticky;
+    top: 0;
+    margin: 0;
+    margin-top: 5%;
+    margin-bottom: -3%;
+    width: 50%;
+    margin-left: 25%;
+    height: 15%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+    -webkit-box-shadow: 1px -7px 13px -5px rgba(0,0,0,0.57); 
+    box-shadow: 1px -7px 13px -5px rgba(0,0,0,0.57);
+}
+
+.titulo-caderno{
+    margin: 0;
+    font-family: Poppins, sans-serif;
+    font-size: 5em;
+    padding: 0px 0px 10px 0px;
+    letter-spacing: -10;
+    font-weight: 600;
+}
+
+.header-titulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid #000 4px;
+    padding: 0px 0px 0px 15px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 20%;
+    -webkit-box-shadow: 1px -7px 13px -5px rgba(0, 0, 0, 0.2); 
+    box-shadow: 1px -7px 13px -5px rgba(0,0,0,0.2);
+}
+
+.btn-hide-show{
+    border: #000 solid 5px;
+    margin: 0% 10% 0% 10%;
+    width: 70px;
+    height: 30px;
+    transition: 0.3s;
+    border-radius: 5px 0px 0px 0px;
+
+}
+
+.btn-hide-show:hover{
+    background-color: #000;
+    color: #f7f6f1;
+}
+
+.titulo{
+    font-size: 1.5em;
+    margin-bottom: 5%;
+
+}
+
+.texto{
+    font-family: 'Cormorant', serif;
+    /* font-family: 'Forum', cursive; */
+    font-weight: 500;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.2em;
+    line-height: 1.5;
+    text-indent: 50px;
+    transition: 0.5s;
+}
+
+.hide{
+     display: none;
+}
+
+.parag{
+    word-wrap: break-word;
+    white-space:pre-wrap;
+}
+
+.img-revista1 {
+    width: 100%;
+    box-shadow: 5px 4px 15px -1px rgba(0,0,0,0.5);
+    transition: 0.9s;
+}
+
+a:visited {
+    color: #000;
+}
+
+/* ******************************************************************** */
+
+@media (max-width: 1650px){
+
+    /*! MOD */
+    main{
+        width: 70%;
+        margin-left: 20%;
+    }
+
+    /*! MOD */
+    .logo2.content{
+        width: 40px;
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        margin-left: 0%;
+        z-index: 1;
+        transition: all 0.5s;
+    }
+    
+    .logo2.content:visited{
+        color: #000;
+    }
+    
+    .hide {
+        opacity:0;
+        /* left:-100%; */
+    }
+    .show {
+        opacity:1;
+        /* left:0; */
+    }
+    
+    /*! MOD */
+    .mg-1 {
+        /* background-color: cyan; */
+        width: 40%;
+        text-align: center;
+        font-size: 1.2em;
+    }
+    
+    /*! MOD */
+    .editorial{
+        margin-top: -1%;
+        width: 55%;
+        height: 50%;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.9em;
+    }
+    
+    .escritores{
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    span{
+        font-weight: 600;
+    }
+    
+    .main-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /*! MOD */
+    .area-texto{
+        width: 50%;
+    }
+    
+    /* .cadernos{
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-family: Poppins, sans-serif;
+        font-size: 15em;
+        letter-spacing: -23;
+        text-align: center;
+    } */
+    
+    .esc-nomes{
+        background-color: #000;
+        color: #f7f6f1;
+        padding: 3px 15px 3px 15px;
+        border: none;
+        margin: 0px 3px 0px 3px;
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    .cadernos{
+        position: sticky;
+        top: 0;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 60%;
+        margin-left: 20%;
+        height: 12%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    /* .cadernos{
+        position: sticky;
+        top: 0;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 15%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+     */
+    /*! MOD */
+    .titulo-caderno{
+        margin: 0;
+        font-family: Poppins, sans-serif;
+        font-size: 5em;
+        letter-spacing: -10;
+        font-weight: 600;
+    }
+    
+    .titulo{
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+    
+    .texto{
+        font-family: 'Cormorant', serif;
+        /* font-family: 'Forum', cursive; */
+        font-weight: 500;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2em;
+        line-height: 1.5;
+        text-indent: 50px;
+    }
+    
+    
+    .img-revista1 {
+        width: 100%;
+        box-shadow: 5px 4px 15px -1px rgba(0,0,0,0.5);
+        transition: 0.9s;
+    }
+    
+    a:visited {
+        color: #000;
+    }
+
+}
+
+/* ******************************************************************** */
+
+@media (max-width: 1450px){
+
+    /*! MOD */
+    main{
+        width: 70%;
+        margin-left: 20%;
+    }
+    
+    /*! MOD */
+    .logo2.content{
+        width: 30px;
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        margin-left: 0%;
+        z-index: 1;
+        transition: all 0.5s;
+        font-size: 2.5em;
+    }
+    
+    .logo2.content:visited{
+        color: #000;
+    }
+    
+    .hide {
+        opacity:0;
+        /* left:-100%; */
+    }
+    .show {
+        opacity:1;
+        /* left:0; */
+    }
+    
+    /*! MOD */
+    .mg-1 {
+        /* background-color: cyan; */
+        display: none;
+    }
+    
+    /*! MOD */
+    .editorial{
+        margin-top: -1%;
+        width: 100%;
+        height: 50%;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 0.9em;
+    }
+    
+    .escritores{
+        width: 100%;
+        margin-top: 25px;
+    }
+    
+    span{
+        font-weight: 600;
+    }
+    
+    .main-2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    /*! MOD */
+    .area-texto{
+        width: 60%;
+    }
+    
+    /* .cadernos{
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        font-family: Poppins, sans-serif;
+        font-size: 15em;
+        letter-spacing: -23;
+        text-align: center;
+    } */
+    
+    .esc-nomes{
+        background-color: #000;
+        color: #f7f6f1;
+        padding: 3px 15px 3px 15px;
+        border: none;
+        margin: 0px 3px 0px 3px;
+        border-radius: 10px 0px 0px 0px;
+    }
+    
+    /* .cadernos{
+        position: sticky;
+        top: 0;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 15%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    .cadernos{
+        position: sticky;
+        top: 0;
+        margin: 0;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        width: 70%;
+        margin-left: 15%;
+        height: 12%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 0px 20px 20px;
+    }
+    
+    /*! MOD */
+    .titulo-caderno{
+        margin: 0;
+        font-family: Poppins, sans-serif;
+        font-size: 5em;
+        letter-spacing: -10;
+        font-weight: 600;
+    }
+    
+    .titulo{
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+    
+    .texto{
+        font-family: 'Cormorant', serif;
+        /* font-family: 'Forum', cursive; */
+        font-weight: 500;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.2em;
+        line-height: 1.5;
+        text-indent: 50px;
+    }
+    
+    
+    .img-revista1 {
+        width: 100%;
+        box-shadow: 5px 4px 15px -1px rgba(0,0,0,0.5);
+        transition: 0.9s;
+    }
+    
+    a:visited {
+        color: #000;
+    }
+
+}
+
+/* ******************************************************************** */
+
+@media (max-width: 700px){
+
+    /*! MOD */
+    main{
+        width: 85%;
+        margin: auto;
+    }
+   
+
+    /*! MOD */
+    .logo2.content{
+        width: 10px;
+        height: 10px;
+        position: fixed;
+        bottom: 0%;
+        left: 0%;
+        margin-left: 0%;
+        z-index: 1;
+        transition: all 0.5s;
+        font-size: 0em;
+    }
+
+    .esc-nomes{
+        background-color: #000;
+        color: #f7f6f1;
+        padding: 1px 5px 1px 5px;
+        border: none;
+        font-size: 14px;
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    .esc-nomes-2{
+        background-color: #000;
+        color: #f7f6f1;
+        padding: 1px 5px 1px 5px;
+        border: none;
+        /* margin: 0px 3px 0px 3px; */
+        border-radius: 10px 0px 0px 0px;
+        font-weight: 700;
+        font-size: 14px;
+    }
+
+    /*! MOD */
+    .area-texto{
+        width: 85%;
+    }
+
+    /*! MOD */
+    .cadernos{
+        position: sticky;
+        top: 0;
+        margin: 0;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        width: 100%;
+        /* margin-left: 15%; */
+        height: 8%;
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    /*! MOD */
+    .titulo-caderno{
+        margin: 0;
+        font-family: Poppins, sans-serif;
+        font-size: 3em;
+        letter-spacing: -6;
+        font-weight: 600;
+    }
+
+    .texto{
+        font-family: 'Cormorant', serif;
+        /* font-family: 'Forum', cursive; */
+        font-weight: 500;
+        text-align: justify;
+        text-justify: inter-word;
+        font-size: 1.1em;
+        line-height: 1.5;
+        text-indent: 50px;
+    }
+
+}
